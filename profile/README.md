@@ -15,4 +15,4 @@
 
 ## Contact
 
-📬 [contacto@qartaonline.com](mailto:contacto@qartaonline.com) · 📸 [@qartaonline](https://www.instagram.com/qartaonline/)
+[contacto@qartaonline.com](mailto:contacto@qartaonline.com) · [@qartaonline](https://www.instagram.com/qartaonline/)
