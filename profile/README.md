@@ -5,4 +5,4 @@ Digital menus for restaurants. Owners manage restaurants and menus in the portal
 **Org:** [qarta-online](https://github.com/qarta-online)  
 **Contact:** [contacto@qartaonline.com](mailto:contacto@qartaonline.com)
 
-Product tickets live in [`planner`](https://github.com/qarta-online/planner). How to contribute: [`CONTRIBUTING.md`](../CONTRIBUTING.md).
+How to contribute: [`CONTRIBUTING.md`](../CONTRIBUTING.md).
