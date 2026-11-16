@@ -6,7 +6,7 @@
 
 - [ ]
 
-## Ticket
+## Item
 
-<!-- [US-12 — Account profile](<ticket-url>) -->
-<!-- Link text is the ticket id and the title. Omit this section when there is no ticket. -->
+<!-- [US-12 — Account profile](<item-url>) -->
+<!-- Link text is the item id and the title. Omit this section when there is no item. -->
