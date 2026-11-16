@@ -1,0 +1,7 @@
+{
+    "name": "Qarta Online CI",
+    "description": "Lint, format, and build with Node 22 and GitHub Packages for @qarta-online.",
+    "iconName": "octicon gear",
+    "categories": ["JavaScript", "TypeScript", "Node", "Continuous integration"],
+    "filePatterns": ["package.json$"]
+}

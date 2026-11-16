@@ -1,0 +1,64 @@
+# Org CI starter for Qarta Online app repos.
+# Job names "lint", "format", and "build" must match the ruleset check names.
+# Next apps: set NEXT_PUBLIC_* env vars on the build job as needed.
+# Toolkit: keep version-bump and npm ci --ignore-scripts in that repo's own workflow.
+
+name: CI
+
+on:
+    pull_request:
+    push:
+        branches: [$default-branch]
+
+permissions:
+    contents: read
+    packages: read
+
+jobs:
+    lint:
+        name: lint
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+                  registry-url: https://npm.pkg.github.com
+                  scope: "@qarta-online"
+                  cache: npm
+            - run: npm ci
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - run: npm run lint
+
+    format:
+        name: format
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+                  registry-url: https://npm.pkg.github.com
+                  scope: "@qarta-online"
+                  cache: npm
+            - run: npm ci
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - run: npm run format
+
+    build:
+        name: build
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+                  registry-url: https://npm.pkg.github.com
+                  scope: "@qarta-online"
+                  cache: npm
+            - run: npm ci
+              env:
+                  NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - run: npm run build
