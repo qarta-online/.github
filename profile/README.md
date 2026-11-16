@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(min-width: 768px)" srcset="assets/banner.svg">
-  <img src="assets/banner-mobile.png" alt="Qarta Online: digital QR menus for restaurants" width="100%">
+  <img src="https://raw.githubusercontent.com/qarta-online/.github/main/profile/assets/banner-mobile.png" alt="Qarta Online: digital QR menus for restaurants" width="100%">
 </picture>
 
 [![Website](https://img.shields.io/badge/qartaonline.com-f91e39?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBhdGggZD0iTTIgMTJoMjAiLz48cGF0aCBkPSJNMTIgMmExNS4zIDE1LjMgMCAwIDEgNCAxMCAxNS4zIDE1LjMgMCAwIDEtNCAxMCAxNS4zIDE1LjMgMCAwIDEtNC0xMCAxNS4zIDE1LjMgMCAwIDEgNC0xMHoiLz48L3N2Zz4=)](https://qartaonline.com)
